@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Ron Bal CS360 Project Three</string>
+    <string name="username">Username</string>
+    <string name="sign_in">Sign in</string>
+    <string name="enter">Enter</string>
+    <string name="weight">Weight</string>
+    <string name="delete">Delete</string>
+    <string name="_160_lbs">160 lbs.</string>
+    <string name="_8_7_2023">8/7/2023:</string>
+    <string name="notify">Notify</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="weight_data">Weight Data</string>
+    <string name="_8_6_2023">8/6/2023:</string>
+    <string name="_100_lbs">100 lbs.</string>
+    <string name="delete2">Delete2</string>
+    <string name="_161_lbs">161 lbs</string>
+    <string name="notify1">Notify</string>
+    <string name="delete3">Delete</string>
+    <string name="_101_lbs">101 lbs.</string>
+    <string name="_2_11_2021">2/11/2021:</string>
+    <string name="delete4">Delete</string>
+    <string name="_185_lbs">185 lbs</string>
+    <string name="_8_6_20231">8/6/2023:</string>
+    <string name="add_weight">Add Weight</string>
+    <string name="weight_data1">Weight Data</string>
+    <string name="_184_lbs">184 lbs</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:stretchColumns="1"
+    android:background="@drawable/background">
+
+    <TableRow android:gravity="center|fill_horizontal">
+
+        <TextView
+            android:id="@+id/main_header"
+            android:layout_span="1"
+            android:text="@string/weight_data1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/addWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/add_weight" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/_8_6_20231"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_185_lbs" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/deleteButton"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/delete4" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/_8_7_2023"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_184_lbs" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/deleteButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/delete3" />
+    </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            />
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notify1" />
+        </TableRow>
+
+
+
+</TableLayout>
